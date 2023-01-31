@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-image: url(/images/banner/banner3.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+}
+.header-content{
+    text-align: right;
+    margin-right: 120px;
+    padding-top: 300px;
+}
+.header-title{
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-weight: 200px;
+}
+.header-description{
+    color: aliceblue;
+    margin-bottom: 20px;
+
+}
+.header-button{
+    background-color: white;
+    color: rgb(16, 39, 173);
+    border: none;
+    padding: 10px 20px;
+    font-weight: 400px;
+    font-size: 15px;
+}
+.section-first{
+    background-image: url(/images/person.png);
+    background-repeat: no-repeat;
+    height: 120vh;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.section-first-content{
+    text-align: right;
+    margin-right: 310px;
+    padding-top: 200px;
+}
+.section-first-header{
+    font-size: 40px;
+}
+
+.section-two{
+    text-align: center;
+}
+
+.my-plans{
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+}
+.section-three{ 
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-left: 110px;
+    background-image: url(/images/gradient1.png),url(/images/watch.png);  
+}
+
+.section-three-header{
+    font-size: 40px;
+    font-weight: 50px;
+    color: white;
+    margin-left: 100px;
+    padding-top: 80px;
+}
+
+.section-three-button{
+    padding: 10px 20px;
+    margin-left: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 20px;
+    color: rgb(4, 101, 165);
+}
+
+.bonus{
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 110px 110px;
+}
+.bonus-element{
+    text-align: right;
+    padding-right: 400px;
+    padding-top: 100px;
+}
+.bonus-title{
+    font-size: 50px;
+    color: rgb(212, 181, 4);
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 100px;
+}
+
+.footer{
+    background-color: black;
+    height: 30vh;
+    display: flex;
+    gap: 400px;
+    padding: 200px 100px;
+
+}
+
+.footer-right{
+    color: whitesmoke;
+}
+
+.footer-header-left{
+    color: white;
+}
+
+.footer-button{
+    background-color: rgb(9, 95, 175);
+    padding: 10px 15px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 15px;
+}
